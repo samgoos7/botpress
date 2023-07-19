@@ -86,7 +86,7 @@ Header
 */
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: var(--white);
+  background: #9f75e4;
   border: 1px solid var(--zinc-200);
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);

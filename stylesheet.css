@@ -24,8 +24,8 @@ Globals
   --ocean-light: #c8dbf4;
   --sky: #f0f9ff;
 
-  --indigo-500: #6366f1;
-  --indigo-600: #4f46e5;
+  --indigo-500: #D2B4FF;
+  --indigo-600: #9F75E4;
 
   --spacing-x-small: 0.125rem;
   --spacing-small: 0.25rem;
@@ -199,7 +199,7 @@ Composer
   background: var(--white);
   border: 1px solid var(--zinc-200);
   border-radius: var(--spacing-medium);
-  color: var(--zinc-900);
+  color: #140729;
   font-family: inherit;
   font-size: 0.75rem;
   height: 54px;

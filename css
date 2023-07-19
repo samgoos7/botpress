@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-color: #140829;
+  --background-color: transparent;
+  --speech-bubble-background: #ffffff;
+  --speech-bubble-shadow: rgba(0, 0, 0, 0.1);
+  --input-focus-border: #9f75e4;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.bpw-layout {
+  border: none;
+  background-color: var(--background-color);
+  box-shadow: none;
+}
+
+.bpw-header-container {
+  display: none;
+}
+
+.bpw-composer textarea {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+.bpw-composer textarea:focus {
+  border: 1px solid var(--input-focus-border);
+}
+
+.bpw-powered {
+  display: none;
+}
+
+.bpw-chat-bubble-content {
+  color: var(--font-color);
+  border: none;
+  background-color: var(--speech-bubble-background);
+  box-shadow: 0 1px 3px var(--speech-bubble-shadow);
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content,
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+  border: none;
+  background-color: var(--speech-bubble-background);
+  box-shadow: 0 1px 3px var(--speech-bubble-shadow);
+}
+
+.bpw-message-timestamp {
+  display: none;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 /* 
 ===================
@@ -7,7 +7,7 @@ Globals
 */
 :root {
   --white: #ffffff;
-  --bg: #fafafa;
+  --bg: #FAF9FF;
   --seashell: #eaeaea;
   --gray: #bec5c9;
   --zinc-200: #e4e4e7;
@@ -61,8 +61,8 @@ Layout
 */
 .bpw-layout {
   border: none;
-  border-radius: var(--spacing-large);
-  background-color: transparent;
+  border-radius: 20px;
+  background-color: var(--bg);
   position: fixed;
   bottom: 0;
   right: 0;
@@ -86,9 +86,9 @@ Header
 */
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: #9f75e4;
-  border: 1px solid var(--zinc-200);
-  border-radius: var(--spacing-medium);
+  background: var(--white);
+  border: 1px solid #D2B4FF;
+  border-radius: 10px;
   padding: var(--spacing-large) var(--spacing-x-large);
 }
 
@@ -112,7 +112,7 @@ Header
 .bpw-header-name {
   font-weight: 500;
   font-size: 0.875rem;
-  color: var(--zinc-600);
+  color: #140729;
 }
 
 .bpw-header-subtitle {
@@ -121,7 +121,7 @@ Header
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 0.75rem;
-  color: var(--zinc-400);
+  color: #6F6B75;
 }
 
 .bpw-header-unread {

@@ -8,24 +8,11 @@ Globals
 :root {
   --white: #ffffff;
   --bg: #FAF9FF;
-  --seashell: #eaeaea;
-  --gray: #bec5c9;
-  --zinc-200: #e4e4e7;
-  --zinc-300: #d4d4d8;
-  --zinc-400: #a1a1aa;
-  --zinc-500: #71717a;
-  --zinc-600: #52525a;
-  --zinc-700: #3f3f46;
-  --zinc-800: #27272a;
-  --zinc-900: #18181b;
-  --reef: #5c7080;
-  --shark: #1a1e22;
-  --ocean: #3276ea;
-  --ocean-light: #c8dbf4;
-  --sky: #f0f9ff;
+  --gray: #6F6B75;
+  --dark: #140729;
 
-  --indigo-500: #D2B4FF;
-  --indigo-600: #9F75E4;
+  --light-purple: #D2B4FF;
+  --dark-purple: #9F75E4;
 
   --spacing-x-small: 0.125rem;
   --spacing-small: 0.25rem;
@@ -34,14 +21,14 @@ Globals
   --spacing-x-large: 1rem;
   --spacing-xx-large: 1.25rem;
 
-  --theme-primary: var(--indigo-500);
-  --theme-primary-hover: var(--indigo-600);
+  --theme-primary: var(--light-purple);
+  --theme-primary-hover: var(--dark-purple);
 }
 
 body {
   margin: 0;
   overflow: hidden;
-  font-family: 'Inter', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 * {
@@ -87,7 +74,7 @@ Header
 .bpw-header-container {
   border-radius: var(--spacing-large);
   background: var(--white);
-  border: 1px solid #D2B4FF;
+  border: 1px solid var(--light-purple);
   border-radius: 10px;
   padding: var(--spacing-large) var(--spacing-x-large);
 }
@@ -112,7 +99,7 @@ Header
 .bpw-header-name {
   font-weight: 500;
   font-size: 0.875rem;
-  color: #140729;
+  color: var(--dark);
 }
 
 .bpw-header-subtitle {
@@ -121,7 +108,7 @@ Header
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 0.75rem;
-  color: #6F6B75;
+  color: var(--gray);
 }
 
 .bpw-header-unread {
@@ -197,9 +184,9 @@ Composer
 
 .bpw-composer textarea {
   background: var(--white);
-  border: 1px solid var(--zinc-200);
+  border: 1px solid var(--gray);
   border-radius: var(--spacing-medium);
-  color: #140729;
+  color: var(--dark);
   font-family: inherit;
   font-size: 0.75rem;
   height: 54px;
@@ -211,7 +198,7 @@ Composer
 }
 
 .bpw-composer textarea:focus {
-  border-color: var(--zinc-300);
+  border-color: var(--gray);
 }
 
 .bpw-composer.rtl .bpw-composer-inner textarea {
@@ -276,7 +263,7 @@ Footer
   padding: 0;
   text-align: left;
   border: none;
-  color: var(--zinc-600);
+  color: var(--dark);
   font-size: 0.75rem;
 }
 
@@ -315,14 +302,14 @@ Footer
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  border-color: var(--theme-primary-hover);
-  background-color: var(--theme-primary);
-  color: white;
+  border-color: var(--light-purple);
+  background-color: var(--light);
+  color: var(--dark);
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: var(--zinc-900);
-  border-color: black;
+  background-color: var(--dark-purple);
+  border-color: var(--dark-purple);
   color: white;
 }
 

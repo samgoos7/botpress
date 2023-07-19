@@ -62,7 +62,7 @@ Layout
 .bpw-layout {
   border: none;
   border-radius: var(--spacing-large);
-  background-color: var(--bg);
+  background-color: transparent;
   position: fixed;
   bottom: 0;
   right: 0;

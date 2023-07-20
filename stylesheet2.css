@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+/* 
+===================
+Globals
+===================
+*/
+:root {
+  --white: #ffffff;
+  --bg: #FAF9FF;
+  --gray: #6F6B75;
+  --dark: #140729;
+
+  --light-purple: #D2B4FF;
+  --dark-purple: #9F75E4;
+
+  --theme-primary: var(--light-purple);
+  --theme-primary-hover: var(--dark-purple);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'DM Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 

@@ -162,15 +162,13 @@ USER INPUT AREA
 ===================
 */
 
-/* Style for the composer section */
 .bpw-composer {
   padding: 0; /* Remove any padding */
   position: relative; /* Set the position to relative */
   outline: none; /* Remove any outline */
   border: none; /* Remove any border */
 }
- 
-/* Style for the composer inner section */
+
 .bpw-composer-inner {
   padding: 0; /* Remove any padding */
   line-height: 0; /* Remove any line-height */
@@ -194,7 +192,7 @@ USER INPUT AREA
   /* Sets the background color to a variable named "--white" */
   background: var(--white);
   /* Sets the border to a 1-pixel solid line using a variable named "--zinc-200" */
-  border: none;
+  border: 1px solid var(--gray);
   /* Sets the border radius to a variable named "--spacing-medium" to make the edges rounded */
   border-radius: 10px;
   /* Sets the text color to a variable named "--zinc-900" */
@@ -269,15 +267,13 @@ USER INPUT AREA
   border-radius: var(
     --spacing-medium
   ); /* Make the corners of the button slightly rounded */
-  background-color: var(
-    --theme-primary
-  ); /* Give the button a primary color background */
+  background-color: var(--theme-primary); /* Give the button a primary color background */
   padding: 20px; /* Add some extra space around the button's content */
   width: 24px; /* Set the button's width to be 24 pixels */
   height: 24px; /* Set the button's height to be 24 pixels */
   color: transparent; /* Hide any text that might appear inside the button */
   cursor: pointer; /* Show the pointer cursor when the button is hovered over */
-  background-image: url(./button.png) !important; /* Add an image to the button */
+  background-image: url('data:image/svg+xml,%3Csvg%20width%3D%2217%22%20height%3D%2220%22%20viewBox%3D%220%200%2017%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M1.77152%201.04207L15.5347%209.13807C16.192%209.52472%2016.192%2010.4753%2015.5347%2010.8619L8.5%2015L1.70485%2018.9971C0.998111%2019.4129%200.118918%2018.8481%200.203121%2018.0325L0.811331%2012.1412C0.85993%2011.6705%201.23186%2011.2983%201.70256%2011.2493L8.21533%2010.5717C9.32302%2010.4565%209.44138%208.88961%208.36357%208.60928L1.54478%206.83574C1.15164%206.73349%200.859426%206.40357%200.805392%206.00096L0.27339%202.03702C0.162447%201.21039%201.05263%200.619195%201.77152%201.04207Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E%0A') !important; /* Add an image to the button */
   background-repeat: no-repeat !important; /* Don't repeat the image */
   background-position: center !important; /* Center the image inside the button */
   transition: background-color 0.2s; /* Make the button's background color change smoothly over a short period of time */

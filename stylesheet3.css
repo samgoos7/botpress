@@ -76,7 +76,7 @@ Layout
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: var(--spacing-large);
+  padding: 10%;
 }
 
 /* 

@@ -323,7 +323,7 @@ FOOTER
 }
 
 .bpw-chat-bubble-content {
-  border: none;
+  border: 1px;
   font-size: 14px;
   line-height: 2;
   border-radius: 10px;
@@ -342,11 +342,13 @@ FOOTER
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: var(--white);
+  border-color: var(--gray);
   color: var(--dark);
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: var(--white);
+  border-color: var(--light-purple);
   color: var(--dark);
 }
 

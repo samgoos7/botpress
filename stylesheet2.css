@@ -341,7 +341,7 @@ FOOTER
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: var(--light);
+  background-color: var(--white);
   color: var(--dark);
 }
 

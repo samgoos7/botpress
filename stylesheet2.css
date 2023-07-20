@@ -50,15 +50,15 @@ HEADER
 
 .bpw-header-icon {
   /* Remove border */
-  border: none;
+  border: 1px;
   /* Remove background color */
-  background: none;
+  background: var(--white);
   /* Remove padding */
   padding: 0;
   /* Remove margin */
   margin: 0;
   /* Set text color to a variable named shark */
-  color: var(--shark);
+  color: var(--dark);
   /* Set line-height to zero */
   line-height: 0;
   /* Set left margin to a variable named spacing-large */

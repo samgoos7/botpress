@@ -323,7 +323,7 @@ FOOTER
 }
 
 .bpw-chat-bubble-content {
-  border: 1px;
+  border: solid 1px;
   font-size: 14px;
   line-height: 2;
   border-radius: 10px;

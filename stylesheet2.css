@@ -106,7 +106,7 @@ HEADER
     /* sets the font weight of the element */
     font-weight: 500;
     /* sets the font size of the element */
-    font-size: 20px;
+    font-size: 14px;
     /* sets the color of the element */
     color: var(--dark);
 }
@@ -116,7 +116,7 @@ HEADER
     white-space: nowrap;
     text-overflow: ellipsis;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 14px;
     color: var(--dark);
 }
  
@@ -150,7 +150,7 @@ HEADER
     /* sets the background color of the element */
     background: var(--white);
     /* sets the border of the element */
-    border: 1px solid var(--light-purple;
+    border: 1px solid var(--light-purple);
     /* sets the border radius of the element (repeated declaration) */
     /* sets the padding of the element */
     padding: 10px;

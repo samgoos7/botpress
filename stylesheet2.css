@@ -194,19 +194,19 @@ USER INPUT AREA
   /* Sets the background color to a variable named "--white" */
   background: var(--white);
   /* Sets the border to a 1-pixel solid line using a variable named "--zinc-200" */
-  border: 1px solid var(--zinc-200);
+  border: none;
   /* Sets the border radius to a variable named "--spacing-medium" to make the edges rounded */
-  border-radius: var(--spacing-medium);
+  border-radius: 10px;
   /* Sets the text color to a variable named "--zinc-900" */
-  color: var(--zinc-900);
+  color: var(--dark);
   /* Inherits the font family from the parent element */
   font-family: inherit;
   /* Sets the font size to 12 pixels */
-  font-size: 12px;
+  font-size: 14px;
   /* Sets the height of the textarea to 54 pixels */
   height: 54px;
   /* Sets the padding on the top to 19 pixels, and on the right and left to a variable named "--spacing-large" */
-  padding: 19px var(--spacing-large) var(--spacing-large);
+  padding: 19px;
   /* Disables the ability to resize the textarea */
   resize: none;
   /* Adds a 0.2-second transition effect to the border when the focus changes */
@@ -220,7 +220,7 @@ USER INPUT AREA
 /* Styles for the textarea element when it is in focus */
 .bpw-composer textarea:focus {
   /* Changes the border color to a variable named "--zinc-300" */
-  border-color: var(--zinc-300);
+  border-color: var(--gray);
 }
  
 /* Styles for the textarea element when it is in right-to-left mode */
@@ -286,9 +286,7 @@ USER INPUT AREA
 /* This is the CSS style for the button that sends a message when it's not disabled and is being hovered over */
  
 .bpw-send-button:not(:disabled):hover {
-  background-color: var(
-    --theme-primary-hover
-  ); /* Change the button's background color to a different color when it's being hovered over */
+  background-color: var(--theme-primary-hover); /* Change the button's background color to a different color when it's being hovered over */
 }
  
 /* This is the CSS style for the voice recorder */

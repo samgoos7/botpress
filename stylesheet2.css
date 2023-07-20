@@ -38,7 +38,8 @@ body {
 
 .bpw-layout {
   border: none;
-  padding: 10%;
+  border-radius: 20px;
+  padding: 5%;
 }
 
 /* 

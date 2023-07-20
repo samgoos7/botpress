@@ -1191,7 +1191,7 @@ FOOTER
 .bpw-rtl .bpw-send-button {
   border: none;
   border-radius: 5px;
-  background: #fff;
+  background: none;
   font-size: 0.75rem;
   font-weight: 500;
   cursor: pointer;

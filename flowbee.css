@@ -147,6 +147,7 @@ a {
     background-color: transparent;  /* Ensure the background is transparent */
     border-radius: 0;               /* Reset any rounded corners */
     overflow: visible;              /* Ensure the image isn't clipped */
+    border: none;
 }
 
 /* Styling for the avatar of the bot */
@@ -154,6 +155,7 @@ a {
 .bpw-bot-avatar svg {
     border-radius: 0;               /* Reset any rounded corners on the image or SVG itself */
     background-color: transparent;  /* Ensure the image or SVG background is transparent */
+    border: none;
 }
 
 /* Styling for the general scrollbar in the web page */

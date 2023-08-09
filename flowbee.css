@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
+
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
   border-radius: 20px;
@@ -34,11 +35,10 @@ p,
 .bpw-header-container {
   margin: 10px;
   background: #ffffff;
-  border: 1px solid #D2B4FF;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
   color: #ffffff;
 }
 
@@ -113,21 +113,25 @@ a {
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #ffffff;
+  background-color: #EDE0FF;
   color: #140729;
-  border: 1px solid #D2B4FF;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
 }
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #9F75E4;
+  background-color: #ffffff;
   color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
 }
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
-  background-color: #FAF9FF;
-  border-top: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
 }
 
 

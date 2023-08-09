@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+/* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
+.bpw-layout {
+  border-radius: 20px;
+  border: 1px;
+}
+
 /* This CSS rule sets the default font size of the entire document */
 html {
   font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
@@ -12,7 +21,7 @@ p,
 
 /* This rule changes the color of the text in the input message */
 #input-message {
-  color: #000000;
+  color: #140729;
 }
 
 /* Changes the color of the new message indicator */
@@ -25,10 +34,10 @@ p,
 .bpw-header-container {
   margin: 10px;
   background: #ffffff;
+  border: 1px solid #D2B4FF;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
-  border: 1px;
   border-radius: 20px;
   color: #ffffff;
 }
@@ -61,7 +70,7 @@ p,
 
 /* Changes the color of the placeholder text in the input message */
 #input-message::placeholder {
-  color: #000000;
+  color: #6F6B75;
 }
 
 
@@ -74,7 +83,7 @@ p,
 /* Styling for the buttons in the chat interface */
 .bpw-button,
 .bpw-button-alt {
-  background-color: #e6e6e6;
+  background-color: #DCC5FF;
   color: #140729;
   border-radius: 20px;
   border: none;
@@ -84,7 +93,7 @@ p,
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #ffffff;
+  background-color: #9F75E4;
 }
 
 
@@ -106,6 +115,7 @@ a {
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #ffffff;
   color: #140729;
+  border: 1px solid #D2B4FF;
 }
 
 /* Styling for the chat bubble content when it's from the user */
@@ -132,8 +142,6 @@ a {
 /* Styling for the avatar of the bot */
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
-  background: #000000;
-  border: 3px solid #000000;
 }
 
 /* Styling for the general scrollbar in the web page */
@@ -195,7 +203,7 @@ a {
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
   opacity: 0.4;
-  background-color: var(--theme-primary);
+  background-color: #9F75E4;
   cursor: default;
 }
 
@@ -212,7 +220,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: var(--spacing-medium);
-  background-color: var(--theme-primary);
+  background-color: #9F75E4;
   padding: 20px;
   width: 24px;
   height: 24px;
@@ -225,5 +233,5 @@ a {
 }
 
 .bpw-send-button:not(:disabled):hover {
-  background-color: var(--theme-primary-hover);
+  background-color: #9F75E4;
 }

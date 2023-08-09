@@ -13,6 +13,12 @@ html {
   font-family: 'DM Sans', sans-serif;
 }
 
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'DM Sans', sans-serif;
+}
+
 /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
 p,
 .bpw-from-bot > div,

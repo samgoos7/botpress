@@ -122,7 +122,7 @@ a {
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #ffffff;
-  color: #ffffff;
+  color: ##140729;
   border-radius: 15px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
 }

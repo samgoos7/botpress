@@ -17,20 +17,20 @@ p,
 
 /* Changes the color of the new message indicator */
 .bpw-new-messages-indicator {
-  background-color: #FAF9FF;
+  background-color: #ffffff;
   color: #000000;
 }
 
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 10px;
-  background: #FAF9FF;
+  background: #ffffff;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   border: 1px;
   border-radius: 20px;
-  color: #FAF9FF;
+  color: #ffffff;
 }
 
 /* Styling for the typing bubble */
@@ -40,7 +40,7 @@ p,
 
 /* Styling for the chat bubble content */
 .bpw-chat-bubble-content {
-  background-color: #FAF9FF;
+  background-color: #ffffff;
   border-radius: 6px;
   border: 1px transparent;
 }
@@ -50,12 +50,6 @@ p,
 .bpw-header-name,
 .bpw-header-subtitle {
   color: #000000;
-}
-
-/* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
-.bpw-layout {
-  border-radius: 20px;
-  border: 1px;
 }
 
 /* Changes the fill color of the header icons to white */
@@ -73,14 +67,14 @@ p,
 
 /* Styling for the keyboard single choice option */
 .bpw-keyboard-single-choice {
-  background-color: #ffffff;
+  background-color: #FAF9FF;
   border: none;
 }
 
 /* Styling for the buttons in the chat interface */
 .bpw-button,
 .bpw-button-alt {
-  background-color: #d0c6ff;
+  background-color: #e6e6e6;
   color: #140729;
   border-radius: 20px;
   border: none;
@@ -90,7 +84,7 @@ p,
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #FAF9FF;
+  background-color: #ffffff;
 }
 
 
@@ -102,15 +96,15 @@ a {
 
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
-  background-color: #ffffff;
+  background-color: #FAF9FF;
   scrollbar-width: thin;
-  scrollbar-color: #FAF9FF #ffffff;
+  scrollbar-color: #ffffff #FAF9FF;
   border: none;
 }
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #FAF9FF;
+  background-color: #ffffff;
   color: #140729;
 }
 
@@ -122,8 +116,8 @@ a {
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
-  background-color: #ffffff;
-  border-top: 1px solid #FAF9FF;
+  background-color: #FAF9FF;
+  border-top: 1px solid #ffffff;
 }
 
 
@@ -131,7 +125,7 @@ a {
 .bpw-chat-container::-webkit-scrollbar,
 .bpw-chat-container::-moz-scrollbar {
   width: 10px;
-  background-color: #ffffff;
+  background-color: #FAF9FF;
   border: none;
 }
 
@@ -158,7 +152,7 @@ a {
 ::-webkit-scrollbar-thumb,
 .bpw-chat-container::-webkit-scrollbar-thumb,
 .bpw-chat-container::-moz-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: #FAF9FF;
   border-radius: 1rem;
   border: 0.5rem solid transparent;
 }
@@ -179,7 +173,7 @@ a {
   text-align: center;
   padding: 10px;
   color: #000000;
-  background: #ffffff;
+  background: #FAF9FF;
   font-size: 16px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;

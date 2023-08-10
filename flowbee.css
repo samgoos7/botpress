@@ -147,6 +147,7 @@ a {
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
+  font-size: 12px;
   background-color: #ffffff;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;

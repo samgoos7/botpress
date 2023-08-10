@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&display=swap');
 
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
   border-radius: 20px;
   border: 1px;
 }
 
 /* This CSS rule sets the default font size of the entire document */
-html {
-  font-size: 16px;
-  font-family: 'DM Sans', sans-serif;
-}
-
 body {
-  margin: 0;
-  overflow: hidden;
-  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-family: 'Bricolage Grotesque';
 }
 
 /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
@@ -39,13 +34,13 @@ p,
 
 /* Styling for the chat header container */
 .bpw-header-container {
+  font-family: 'Bricolage Grotesque';
   margin: 10px;
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)
+  background: transparent;
+  border: none;
   position: relative;
   overflow: hidden;
-  color: #ffffff;
+  color: #140729;
 }
 
 /* Styling for the typing bubble */
@@ -82,18 +77,18 @@ p,
 
 /* Styling for the keyboard single choice option */
 .bpw-keyboard-single-choice {
-  background-color: #FAF9FF;
+  background-color: #FFFFFF;
   border: none;
 }
 
 /* Styling for the buttons in the chat interface */
 .bpw-button,
 .bpw-button-alt {
+  font-family: 'Bricolage Grotesque';
   background-color: #DCC5FF;
   color: #140729;
   border-radius: 20px;
   border: none;
-  font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -112,7 +107,7 @@ a {
 
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
-  background-color: #FAF9FF;
+  background-color: white;
   scrollbar-width: thin;
   scrollbar-color: #ffffff #FAF9FF;
   border: none;
@@ -128,7 +123,7 @@ a {
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #ffffff;
+  background-color: #FAF9FF;
   color: #140729;
   border-radius: 15px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05)

@@ -116,9 +116,23 @@ a {
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #EDE0FF;
   color: #140729;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 4px;
+  margin-left: 20px;
+}
+
+/* Styling for the chat bubble content when it's from the user */
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+  background-color: #FAF9FF;
+  color: #140729;
+  border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 0px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 4px;
   margin-right: 20px;
@@ -134,18 +148,6 @@ a {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top: 1px solid #6F6B75;
-}
-
-
-/* Styling for the chat bubble content when it's from the user */
-.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #FAF9FF;
-  color: #140729;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
-  margin-bottom: 4px;
 }
 
 

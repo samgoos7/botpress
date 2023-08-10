@@ -8,8 +8,11 @@
 }
 
 /* This CSS rule sets the default font size of the entire document */
+html {
+  font-size: 14px;
+}
+
 body {
-  font-size: 10px;
   font-family: 'Bricolage Grotesque';
 }
 
@@ -83,7 +86,6 @@ p,
 /* Styling for the buttons in the chat interface */
 .bpw-button,
 .bpw-button-alt {
-  font-size: 12px;
   font-family: 'Bricolage Grotesque';
   background-color: #DCC5FF;
   color: #140729;
@@ -115,7 +117,6 @@ a {
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  font-size: 12px;
   background-color: #EDE0FF;
   color: #140729;
   border-top-left-radius: 15px;
@@ -129,7 +130,6 @@ a {
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  font-size: 12px;
   background-color: #FAF9FF;
   color: #140729;
   border-top-left-radius: 15px;
@@ -147,7 +147,6 @@ a {
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
-  font-size: 12px;
   background-color: #ffffff;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;

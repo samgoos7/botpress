@@ -114,6 +114,7 @@ a {
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+  font-size: 10px;
   background-color: #EDE0FF;
   color: #140729;
   border-top-left-radius: 15px;
@@ -122,11 +123,12 @@ a {
   border-bottom-right-radius: 15px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 4px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+  font-size: 10px;
   background-color: #FAF9FF;
   color: #140729;
   border-top-left-radius: 15px;
@@ -135,7 +137,7 @@ a {
   border-bottom-right-radius: 0px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
   margin-bottom: 4px;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .bpw-from-bot .bpw-bot-avatar {

@@ -3,7 +3,7 @@
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 
 /* Default style, optimized for desktop first */
-@media (max-width: 600px) {
+@media (width: 600px) {
   .bpw-layout {
     border-radius: 20px;
   }

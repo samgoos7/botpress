@@ -3,7 +3,6 @@
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout {
-  border-radius: 20px;
   border: 1px;
 }
 

@@ -3,24 +3,9 @@
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 
-/* Default style, optimized for mobile first */
 .bpw-layout {
   border: 1px solid; /* I added 'solid' here, assuming you wanted a solid border. Adjust as needed. */
-  border-radius: 0px; /* Default for mobile */
-}
-
-/* Tablet and up */
-@media (min-width: 768px) {
-  .bpw-layout {
-    border-radius: 0px; /* For tablet */
-  }
-}
-
-/* Desktop and up */
-@media (min-width: 992px) { 
-  .bpw-layout {
-    border-radius: 20px; /* For desktop */
-  }
+  border-radius: 20px;
 }
 
 /* This CSS rule sets the default font size of the entire document */

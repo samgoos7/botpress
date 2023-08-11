@@ -3,14 +3,19 @@
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 
 /* Default style, optimized for desktop first */
-.bpw-layout {
-  border: 1px solid;
-  border-radius: 20px; /* Default for desktop */
+@media (max-width: 600px) {
+  .bpw-layout {
+    border-radius: 20px;
+  }
 }
 
-.mobile-iframe .bpw-layout {
-  border-radius: 0px; /* Override for mobile */
+
+/* Tablet and mobile */
+.bpw-layout {
+  border: 1px solid;
+  border-radius: 0px;
 }
+
 
 /* This CSS rule sets the default font size of the entire document */
 html {

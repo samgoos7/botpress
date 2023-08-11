@@ -8,11 +8,8 @@
   border-radius: 20px; /* Default for desktop */
 }
 
-/* Tablet and mobile */
-@media (max-width: 991px) {
-  .bpw-layout {
-    border-radius: 0px; /* Override for tablet and mobile */
-  }
+.mobile-iframe .bpw-layout {
+  border-radius: 0px; /* Override for mobile */
 }
 
 /* This CSS rule sets the default font size of the entire document */
